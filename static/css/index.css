@@ -133,5 +133,21 @@ body {
   font-size: smaller;
 }
 
-
-
+/*Vibration*/
+.vibration span{
+  transition: all 500ms;
+  display: inline-block;
+  text-shadow: 1px 2px 3px #999;
+}
+.vibration span:hover{
+  filter: blur(3px);
+  animation: vibrate 50ms linear infinite forwards;
+}
+@keyframes vibrate{
+  0% {
+      transform: translateX(-1px) translateY(1px);
+  }
+  100% {
+      transform: translateX(1px) translateY(-2px);
+  }
+}

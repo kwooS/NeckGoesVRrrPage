@@ -164,18 +164,18 @@
         </div>
         <div class="item">
           <!-- Your image here -->
-          <img src="static/images/hardware details.png" alt="MY ALT TEXT" width="50%" height="auto" style="margin-left: auto; margin-right: auto; display: block;"/>
+          <img src="static/images/hardware details.png" alt="hardware details" width="50%" height="auto" style="margin-left: auto; margin-right: auto; display: block;"/>
           <h2 class="subtitle has-text-centered">
-            
+            To control the 4 motors, we used a ESP32 microcontroller with a 8-channel multiplexer. Through this we could easily switch between different NMV configurations by varying vibration location and vibration duration. 
           </h2>
         </div>
-        <!-- <div class="item">
-          <img src="static/images/carousel3.jpg" alt="MY ALT TEXT" width="50%" height="auto" style="margin-left: auto; margin-right: auto; display: block;"/>
+        <div class="item">
+          <img src="static/images/Algorithm.png" alt="rendering details" width="50%" height="auto" style="margin-left: auto; margin-right: auto; display: block;"/>
           <h2 class="subtitle has-text-centered">
-           Third image description.
+           Using the results of our exploratory study, we developed a haptic rendering system to obtain VR scene information in real-time and deliver the adequate NMV configuration.
          </h2>
        </div>
-       <div class="item">
+       <!-- <div class="item">
         <img src="static/images/carousel4.jpg" alt="MY ALT TEXT" width="50%" height="auto" style="margin-left: auto; margin-right: auto; display: block;"/>
         <h2 class="subtitle has-text-centered">
           Fourth image description.
@@ -193,27 +193,30 @@
     <div class="container">
       <h2 class="title is-3">Using NMV to Reduce VR Sickness</h2>
       <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/motor placements.png" alt="NMV motor placement" width="50%" height="auto" style="margin-left: auto; margin-right: auto; display: block;"/>
-        <h2 class="subtitle has-text-centered">
-          We delivered vibrotactile stimulation on the left and right SCM muscles and SC muscles. By vibrating the right SCM and the left SC muscles, the user perceives a left rotation on the yaw axis. 
-        </h2>
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/Rotation methods.mp4"
+            type="video/mp4">
+          </video>
+          <h2 class="subtitle has-text-centered">
+            We conducted a system evaluation with 20 participants measuring VR sickness and presence. Participants experienced a VR scene using a combination of one VR navigation control method (Video, Controller, Neck) and one NMV setting (None, fixed duration, fully adaptive).
+          </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/hardware details.png" alt="MY ALT TEXT" width="50%" height="auto" style="margin-left: auto; margin-right: auto; display: block;"/>
+        <img src="static/images/SSQ results.png" alt="MY ALT TEXT" width="50%" height="auto" style="margin-left: auto; margin-right: auto; display: block;"/>
         <h2 class="subtitle has-text-centered">
-          
+          After experiencing a combination, participants answered the simulator sickness questionnaire. We observed a significant decrease in VR sickness when NMV was applied.
         </h2>
       </div>
-      <!-- <div class="item">
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT" width="50%" height="auto" style="margin-left: auto; margin-right: auto; display: block;"/>
+      <div class="item">
+        <img src="static/images/VR Presence.png" alt="MY ALT TEXT" width="80%" height="auto" style="margin-left: auto; margin-right: auto; display: block;"/>
         <h2 class="subtitle has-text-centered">
-         Third image description.
+          Participants also answered a Slater-Usoh-Steed questionnaire for presence. There was a significant increase in presence when NMV was applied.
        </h2>
      </div>
-     <div class="item">
+     <!-- <div class="item">
       <img src="static/images/carousel4.jpg" alt="MY ALT TEXT" width="50%" height="auto" style="margin-left: auto; margin-right: auto; display: block;"/>
       <h2 class="subtitle has-text-centered">
         Fourth image description.
